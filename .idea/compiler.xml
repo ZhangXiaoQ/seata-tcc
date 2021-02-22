@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="seata-stock" />
+        <module name="seata-order" />
+        <module name="seata-model" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="seata" options="-parameters" />
+      <module name="seata-model" options="-parameters" />
+      <module name="seata-order" options="-parameters" />
+      <module name="seata-stock" options="-parameters" />
+    </option>
+  </component>
+</project>

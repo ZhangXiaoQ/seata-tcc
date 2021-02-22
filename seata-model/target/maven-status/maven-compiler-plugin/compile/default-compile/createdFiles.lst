@@ -1,0 +1,5 @@
+com\itzyq\model\dto\OrderInfoDTO.class
+com\itzyq\model\entity\OrderDetailEntity.class
+com\itzyq\model\ModelApplication.class
+com\itzyq\model\entity\StockInfoEntity.class
+com\itzyq\model\entity\OrderInfoEntity.class
